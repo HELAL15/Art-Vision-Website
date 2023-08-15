@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- bootstrap css file -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- owl carousel css file -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+</head>
+
+<body>
+  <div class="owl-carousel owl-theme partners">
+    <div class="item">
+      <img src="images/partner2.png" alt="">
+    </div>
+    <div class="item">
+      <img src="images/logo.png" alt="">
+    </div>
+    <div class="item">
+      <img src="images/partner2.png" alt="">
+    </div>
+    <div class="item">
+      <img src="images/logo.png" alt="">
+    </div>
+    <div class="item">
+      <img src="images/partner2.png" alt="">
+    </div>
+    <div class="item">
+      <img src="images/logo.png" alt="">
+    </div>
+    <div class="item">
+      <img src="images/partner2.png" alt="">
+    </div>
+    <div class="item">
+      <img src="images/partner2.png" alt="">
+    </div>
+    <div class="item">
+      <img src="images/logo.png" alt="">
+    </div>
+    <div class="item">
+      <img src="images/partner2.png" alt="">
+    </div>
+  </div>
+
+
+
+  <script>
+    $('.owl-carousel.partners').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: false,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 5
+        }
+      }
+    })
+  </script>
+
+  <!-- bootstrap js file -->
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- owl carousel js file -->
+  <script src="js/owl.carousel.min.js"></script>
+</body>
+
+</html>
